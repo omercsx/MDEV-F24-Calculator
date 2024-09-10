@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     // MARK: - Outlets
 
-    @IBOutlet var totalTextField: UITextField!
+    @IBOutlet var numberDisplay: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
