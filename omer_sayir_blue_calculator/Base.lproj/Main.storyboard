@@ -26,10 +26,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A32-di-Y2h">
-                                <rect key="frame" x="133" y="409" width="45" height="35"/>
+                                <rect key="frame" x="132" y="409" width="48" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="^2"/>
+                                <buttonConfiguration key="configuration" style="plain" title="del"/>
                                 <connections>
                                     <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ezB-Kx-95D"/>
                                 </connections>
