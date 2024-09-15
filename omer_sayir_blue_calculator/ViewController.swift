@@ -40,7 +40,7 @@ class ViewController: UIViewController {
                 calculatorModel.updateNumber(Double(currentValue)!)
             case "C":
                 currentValue = "0"
-                calculatorModel.updateNumber(0)
+                calculatorModel.reset()
                 startNewNumber = true
             case "+", "-", "X", "/":
                 calculatorModel.operation = buttonText

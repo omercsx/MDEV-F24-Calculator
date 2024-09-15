@@ -22,16 +22,22 @@ class Omer_Calculator_Model {
         }
     }
 
+    func reset() {
+        firstNumber = nil
+        secondNumber = nil
+        operation = nil
+    }
+
     func getResult() -> Double {
         switch operation {
         case "+":
-            return (firstNumber ?? 0.0) + (secondNumber ?? 0.0)
+            return firstNumber! + secondNumber!
         case "-":
-            return (firstNumber ?? 0.0) - (secondNumber ?? 0.0)
+            return firstNumber! - secondNumber!
         case "X":
-            return (firstNumber ?? 0.0) * (secondNumber ?? 0.0)
+            return firstNumber! * secondNumber!
         case "/":
-            return (firstNumber ?? 0.0) / (secondNumber ?? 0.0)
+            return firstNumber! / secondNumber!
         default:
             return 0.0
         }
